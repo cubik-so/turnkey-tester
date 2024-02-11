@@ -1,0 +1,25 @@
+{
+  "name": "turnkey-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@turnkey/api-key-stamper": "^0.4.0",
+    "@turnkey/http": "^2.7.1",
+    "@turnkey/solana": "^0.2.2",
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.2",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
